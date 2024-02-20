@@ -1,5 +1,20 @@
 # Challenge 11: Professional README Generator
 
+## Table of Contents
+- [Description](#description)
+- [Motivation](#motivation)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Contribution Guidelines](#contribution-guidelines)
+- [Testing Instructions](#testing-instructions)
+- [User Story](#user-story)
+- [Installation and Usage](#installation-and-usage)
+- [GitHub Repository](#github-repository)
+- [Credits](#credits)
+- [License](#license)
+- [Badges](#badges)
+- [Questions](#questions)
+
 ## Description
 
 Professional README Generator is a command-line application that generates top-notch README.md files for GitHub projects. The user fills in sections such as Description, Usage, Licence, Installation, Contribution, Tests, Questions.
