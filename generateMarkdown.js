@@ -90,9 +90,36 @@ function generateMarkdown(data) {
 
   ${licenseBadge}
 
-  
+  ## Description
+${data.description}
 
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
+## License
+${licenseNotice}
+
+## Installation
+\`\`\`
+${data.installation}
+\`\`\`
+
+## Usage
+${data.usage}
+
+## Contributing
+${data.contributing}
+
+## Tests
+${data.tests}
+
+## Questions
+You may submit a ticket or get in touch with me directly at ${data.email} if you have any questions about the repository. More of my work is available at ${githubLink}.
 `;
 }
 
