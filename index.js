@@ -34,9 +34,21 @@ const questions = [
     { type: 'input', name: 'email', message: 'Enter your email address:' }
 ];
 
-// function to write README file
+// function to write README file *Starter pack
+// function writeToFile(fileName, data) {
+// }
+
+//NEW
+
 function writeToFile(fileName, data) {
-}
+    fs.writeFile(fileName, data, (err) => {
+      if (err) {
+        console.error(err);
+      } else {
+        console.log('The README.md file has been successfully created!');
+      }
+    });
+  }
 
 // function to initialize program
 function init() {
