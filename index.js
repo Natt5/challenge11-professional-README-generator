@@ -58,7 +58,19 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
-
+    inquirerPromise.then((inquirerModule) => {
+        const inquirer = inquirerModule.default;
+        inquirer.prompt(questions)
+          .then((answers) => {
+            const readmeContent = generateMarkdown(answers);
+            writeToFile('README.md', readmeContent);
+          })
+          .catch((error) => {
+            console.error('An error occurred when creating the README:', error);
+          });
+    }).catch((error) => {
+        console.error('An error occurred while importing inquirer:', error);
+    });
 }
 
 // function call to initialize program *Starter pack
