@@ -82,11 +82,16 @@ function generateMarkdown(data) {
       licenseNotice = 'License not specified.';
   }
 
-  //GitHub link generation
+  //GitHub profile link generation
 
   const githubLink = `[${data.github}](https://github.com/${data.github})`;
-  
+
   return `# ${data.title}
+
+  ${licenseBadge}
+
+  
+
 
 `;
 }
