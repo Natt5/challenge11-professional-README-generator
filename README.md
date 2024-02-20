@@ -62,6 +62,10 @@ After you complete the questions, your project directory will have a README.md f
 
 [A walkthrough video demo of the Professional Readme Generator](https://app.screencastify.com/v3/watch/hqsYX2pTJ0SyaHnEHEwV)
 
+[Sample of the app generated README file](./sampleREADME.md)
+
+![Screenshot of the app generated README file](./assets/sample-readme-screenshot.png)
+
 ### GitHub Repository
 
 [Link to the GitHub repository for the Professional README Generator](https://github.com/Natt5/challenge11-professional-README-generator)
