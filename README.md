@@ -31,13 +31,13 @@ The goal of this project is to make the process of producing polished README fil
 
 Please adhere to these guidelines in order to contribute to the Professional README Generator project:
 
-- Fork the repo,
-- Clone the fork,
-- Make a branch,
-- Make the necessary adjustments,
-- Check your modifications,
-- Ensure your modifications are committed,
-- Push to your fork,
+- Fork the repo.
+- Clone the fork.
+- Make a branch.
+- Make the necessary adjustments.
+- Check your modifications.
+- Ensure your modifications are committed.
+- Push to your fork.
 - Submit a pull request.
 
 ## Testing Instructions
@@ -54,10 +54,11 @@ I want a README generator as a developer so that I can quickly and professionall
 
 ## Installation and Usage
 
-Make a local copy of the repository on your computer.
-Open your terminal and navigate to the project directory.
-To install the necessary dependencies, run npm install.
-You only need to execute node index.js in your terminal and follow the instructions to use the Professional README Generator. After you complete the questions, your project directory will have a README.md file.
+- Make a local copy of the repository on your computer.
+- Open your terminal and navigate to the project directory.
+- To install the necessary dependencies, run npm install.
+- You only need to execute node index.js in your terminal and follow the instructions to use the Professional README Generator. 
+- After you complete the questions, your project directory will have a README.md file.
 
 ![A walkthrough video demo of the Professional Readme Generator](link to google drive here)
 
@@ -99,7 +100,7 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 Please get in touch with me using the information below if you have any questions or need more details about the Professional README Generator project:
 
-GitHub Profile: [Natt5](https://github.com/Natt5)
+GitHub Profile: [Natt5](https://github.com/Natt5)  
 Email Address: [Contact me](mailto:contactmeviagithub@gmail.com)
 
 Your contributions and feedback are welcome! 
