@@ -48,26 +48,26 @@ const questions = [
 
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => {
-      if (err) {
+    if (err) {
         console.error(err);
-      } else {
+    } else {
         console.log('The README.md file has been successfully created!');
-      }
+    }
     });
-  }
+}
 
 // function to initialize program
 function init() {
     inquirerPromise.then((inquirerModule) => {
         const inquirer = inquirerModule.default;
         inquirer.prompt(questions)
-          .then((answers) => {
+        .then((answers) => {
             const readmeContent = generateMarkdown(answers);
             writeToFile('README.md', readmeContent);
-          })
-          .catch((error) => {
+        })
+        .catch((error) => {
             console.error('An error occurred when creating the README:', error);
-          });
+        });
     }).catch((error) => {
         console.error('An error occurred while importing inquirer:', error);
     });
