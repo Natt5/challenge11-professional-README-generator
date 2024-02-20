@@ -1,0 +1,30 @@
+{
+  "name": "challenge11-professional-readme-generator",
+  "version": "1.0.0",
+  "description": "A command-line tool that speeds up the project setup process by dynamically creating a polished README.md file from user input.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Natt5/challenge11-professional-README-generator.git"
+  },
+  "keywords": [
+    "markdown",
+    "README",
+    "generator",
+    "command-line",
+    "project",
+    "inquirer"
+  ],
+  "author": "Natt5",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Natt5/challenge11-professional-README-generator/issues"
+  },
+  "homepage": "https://github.com/Natt5/challenge11-professional-README-generator#readme",
+  "dependencies": {
+    "inquirer": "^9.2.15"
+  }
+}
