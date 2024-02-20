@@ -1,6 +1,12 @@
 const fs = require("fs");
 const path = require('path');
-const inquirer = require("inquirer");
+
+// const inquirer = require("inquirer");*Starter pack
+
+//NEW
+
+const inquirerPromise = import("inquirer");
+
 const generateMarkdown = require("./generateMarkdown");
 
 // array of questions for user
@@ -55,5 +61,5 @@ function init() {
 
 }
 
-// function call to initialize program
+// function call to initialize program *Starter pack
 init();
