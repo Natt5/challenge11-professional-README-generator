@@ -60,7 +60,7 @@ To install the necessary dependencies, run **npm install**.
 You only need to execute node index.js in your terminal and follow the instructions to use the Professional README Generator.  
 After you complete the questions, your project directory will have a README.md file.  
 
-![A walkthrough video demo of the Professional Readme Generator](link to google drive here)
+![A walkthrough video demo of the Professional Readme Generator](https://drive.google.com/file/d/1te2KVxAPnWhiD7aocf8twZyFPyriVuYj/view.)
 
 ### GitHub Repository
 
